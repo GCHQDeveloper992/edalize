@@ -23,6 +23,7 @@ def test_modelsim():
         'Makefile',
         'edalize_build_rtl.tcl',
         'edalize_main.tcl',
+        'error_catch_run.tcl',
     ])
 
     orig_env = os.environ.copy()
